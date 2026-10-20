@@ -18,7 +18,6 @@ import lombok.Setter;
         uniqueConstraints = @UniqueConstraint(columnNames = {"user_id", "name"})
 )
 public class Category {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
